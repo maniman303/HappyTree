@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Happy_Tree.MainPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <AbsoluteLayout>
+        <Image Source="drzewo.png"
+               x:Name="drzewo"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="EndAndExpand"
+               Margin="0,-100,0,0"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0,1"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="start.png"
+               x:Name="startimg"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="EndAndExpand"
+               Margin="0,-100,0,0"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0,1"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="logo.png"
+               x:Name="logoimg"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="EndAndExpand"
+               Margin="0,-100,0,0"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0,1"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="tutorial.png"
+               x:Name="tutorialimg"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="EndAndExpand"
+               Opacity="0.0"
+               Margin="0,-100,0,0"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0,1"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Button Text="" 
+                x:Name="button"
+                Clicked="Button_Clicked"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Style="{StaticResource invisibleButton}"
+                Margin="0,30,0,60"
+                AbsoluteLayout.LayoutBounds="0,1,1,1"
+                AbsoluteLayout.LayoutFlags="All"/>
+    </AbsoluteLayout>
+
+</ContentPage>

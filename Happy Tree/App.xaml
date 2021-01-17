@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Happy_Tree.App">
+    <Application.Resources>
+        <ResourceDictionary Source="Themes/SkyStyle.xaml" />
+        <Style x:Key="invisibleButton" TargetType="Button">
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            <Setter Property="BorderColor" Value="Transparent" />
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="TextColor" Value="Black" />
+        </Style>
+        <Style x:Key="invisibleImageButton" TargetType="ImageButton">
+            <Setter Property="BorderColor" Value="Transparent" />
+            <Setter Property="BackgroundColor" Value="Transparent" />
+        </Style>
+        <Style x:Key="happyLabel" TargetType="Label">
+            <Setter Property="TextColor" Value="#593019" />
+            <Setter Property="FontFamily" Value="Comic" />
+            <Setter Property="FontSize" Value="35" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+        <Style x:Key="happyButton" TargetType="Button">
+            <Setter Property="BorderColor" Value="Transparent" />
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="TextColor" Value="#593019" />
+            <Setter Property="FontFamily" Value="Comic" />
+        </Style>
+    </Application.Resources>
+</Application>

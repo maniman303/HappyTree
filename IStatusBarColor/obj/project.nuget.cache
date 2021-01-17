@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CZz91Hqq8B46WDJi8GQfh27mVcda4ihtfn0VvwTxFl39NVf3T4Fqj2T7v9htezerdaDAjU2T1agZhhzocIQzMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\manim\\source\\repos\\Happy Tree\\IStatusBarColor\\IStatusBarColor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
